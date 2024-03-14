@@ -8,10 +8,11 @@ use App\Models\Comment;
 class Index extends Component
 {
     public $posts;
+
     public function mount()
     {
         $this-> posts = Post::all();
-
+       
     }
     public function render()
     {
