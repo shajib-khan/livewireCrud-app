@@ -2,7 +2,8 @@
 
 use App\Livewire\Index;
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Post;
+use App\Models\Comment;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get("/", Index::class)->name("index");
+
